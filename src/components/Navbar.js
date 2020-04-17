@@ -42,6 +42,6 @@ background-color: var(--mainBlue);
 }
 .productBtn {
     border: 2px solid white;
-    border-radius: 16px;
+    border-radius: 8px;
 }
 `
