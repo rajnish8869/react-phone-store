@@ -35,7 +35,7 @@ export default class Navbar extends Component {
 const NavWrapper = styled.nav`
 background-color: var(--mainBlue);
 .navbar {
-    padding: .5rem 0.5rem;
+    padding: .5rem 0.5rem !important;
 }
 .nav-link {
     color: var(--mainWhite) !important;
