@@ -7,7 +7,7 @@ import {ButtonContainer} from './Button'
 export default class Navbar extends Component {
     render(){
         return (
-            <NavWrapper className="navbar navbar-expand-sm navbar-dark p-sm-10">
+            <NavWrapper className="navbar navbar-expand-sm navbar-dark p-sm-5">
                 
             <Link to="/">
                 <img src={logo} alt="store" className="navbar-brand" />
@@ -41,7 +41,7 @@ background-color: var(--mainBlue);
     
 }
 .productBtn {
-    border: 2px solid white;
+    border: 1.5px solid white;
     border-radius: 8px;
 }
 `
