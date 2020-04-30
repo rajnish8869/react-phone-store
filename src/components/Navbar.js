@@ -13,7 +13,7 @@ export default class Navbar extends Component {
                 <img src={logo} alt="store" className="navbar-brand" />
             </Link>
             <ul className="navbar-nav align-items-center">
-                <li className="nav-item ml-5">
+                <li className="nav-item ml-3">
                 <Link to="/"className="nav-link">
                     <div className="productBtn px-3 py-1">Products</div>
                 </Link>
@@ -34,9 +34,7 @@ export default class Navbar extends Component {
 
 const NavWrapper = styled.nav`
 background-color: var(--mainBlue);
-.navbar {
-    padding: .5rem 0.5rem !important;
-}
+
 .nav-link {
     color: var(--mainWhite) !important;
     font-size: 1.3rem;
