@@ -33,7 +33,7 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
-background-color: var(--mainBlue);
+background-color: #000d3c;
 
 .nav-link {
     color: var(--mainWhite) !important;
