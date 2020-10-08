@@ -23,18 +23,18 @@ class ProductProvider extends Component {
         })
     }
 
-    // componentDidMount() {
-    //     if (!localStorage.getItem("cart")) {
-    //         this.setProducts();
-    //     } else {
-    //         console.log('Using data from local storage')
-    //     }
-
-    // }
-
     componentDidMount() {
-        this.setProducts();
+        if (!localStorage.getItem("cart")) {
+            this.setProducts();
+        } else {
+            console.log('Using data from local storage')
+        }
+
     }
+
+    // componentDidMount() {
+    //     this.setProducts();
+    // }
 
     componentWillUpdate(nextProps, nextState) {
         localStorage.setItem('cart', JSON.stringify(nextState.cart))
